@@ -41,7 +41,7 @@ func main() {
 	}
 	fmt.Println(stu5)
 
-	var stu6 = &Stu{
+	stu6 := &Stu{
 		Name: "qin",
 		Age:  23,
 	}
