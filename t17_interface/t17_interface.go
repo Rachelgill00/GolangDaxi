@@ -36,6 +36,7 @@ func (c Computer) working(u Usb) {
 	//通过usb接口来调用两个方法
 	u.Start()
 	u.Stop()
+
 }
 
 func main() {
